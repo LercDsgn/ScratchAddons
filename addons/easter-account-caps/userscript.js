@@ -7,4 +7,4 @@ export default async function ({ addon, global, console }) {
   accountSettings.textContent = addon.settings.get("titleCase") === true ? "Account SettingS" : "Account settingS" 
   
   // if possible, check whether account-settings-capitalizer addon is enabled (instead of adding a new setting)
-  
+}
